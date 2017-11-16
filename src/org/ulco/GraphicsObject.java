@@ -2,7 +2,7 @@ package org.ulco;
 
 abstract public class GraphicsObject {
     public GraphicsObject() {
-        m_ID = ++ID.ID;
+        m_ID = ID.getID().nextID();
     }
 
     abstract public GraphicsObject copy();
