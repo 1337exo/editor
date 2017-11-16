@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee73518-0376-4a38-83e7-9b8b15cad9f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/ulco/GraphicsObject.java" afterPath="$PROJECT_DIR$/src/org/ulco/GraphicsObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/ulco/Group.java" afterPath="$PROJECT_DIR$/src/org/ulco/Group.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/ulco/JSON.java" afterPath="$PROJECT_DIR$/src/org/ulco/JSON.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,6 +17,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="JSON.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/ulco/JSON.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="JAVA/org.ulco" pinned="false" current-in-tab="false">
         <entry file="uml://JAVA/org.ulco">
           <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -27,24 +34,24 @@
               <ID>JAVA</ID>
               <OriginalElement>org.ulco</OriginalElement>
               <nodes>
-                <node x="287.3166612798966" y="585.0">org.ulco.Document</node>
+                <node x="287.3166612798965" y="585.0">org.ulco.Document</node>
                 <node x="0.0" y="379.0">org.ulco.GraphicsObjects</node>
-                <node x="340.9899743230625" y="276.0">org.ulco.Rectangle</node>
-                <node x="585.9899743230625" y="276.0">org.ulco.Circle</node>
-                <node x="212.0399743230625" y="276.0">org.ulco.Group</node>
-                <node x="233.18333333333334" y="143.0">org.ulco.GraphicsObject</node>
+                <node x="340.9899743230624" y="276.0">org.ulco.Rectangle</node>
+                <node x="585.9899743230624" y="276.0">org.ulco.Circle</node>
+                <node x="212.03997432306247" y="276.0">org.ulco.Group</node>
+                <node x="233.18333333333328" y="143.0">org.ulco.GraphicsObject</node>
                 <node x="151.42886321195135" y="472.0">org.ulco.Layer</node>
-                <node x="486.2841619981326" y="0.0">org.ulco.Point</node>
-                <node x="472.9899743230625" y="276.0">org.ulco.Square</node>
-                <node x="190.18416199813262" y="0.0">org.ulco.ID</node>
-                <node x="286.3999946132299" y="379.0">org.ulco.JSON</node>
+                <node x="486.28416199813256" y="0.0">org.ulco.Point</node>
+                <node x="472.9899743230624" y="276.0">org.ulco.Square</node>
+                <node x="190.1841619981326" y="0.0">org.ulco.ID</node>
+                <node x="286.39999461322986" y="379.0">org.ulco.JSON</node>
               </nodes>
               <notes />
               <edges>
                 <edge source="org.ulco.Group" target="org.ulco.JSON">
                   <point x="29.666666666666686" y="16.5" />
                   <point x="286.2066409897292" y="339.0" />
-                  <point x="316.75713747037275" y="339.0" />
+                  <point x="316.7571374703727" y="339.0" />
                   <point x="-12.142857142857167" y="-16.5" />
                 </edge>
                 <edge source="org.ulco.Layer" target="org.ulco.ID">
@@ -52,108 +59,108 @@
                   <point x="174.20664098972912" y="432.0" />
                   <point x="163.5" y="432.0" />
                   <point x="163.5" y="53.0" />
-                  <point x="200.68416199813262" y="53.0" />
+                  <point x="200.6841619981326" y="53.0" />
                   <point x="-21.0" y="16.5" />
                 </edge>
                 <edge source="org.ulco.GraphicsObject" target="org.ulco.Point">
                   <point x="36.5" y="-16.5" />
-                  <point x="342.68333333333334" y="83.0" />
-                  <point x="500.7484477124184" y="83.0" />
+                  <point x="342.6833333333333" y="83.0" />
+                  <point x="500.7484477124183" y="83.0" />
                   <point x="-26.035714285714278" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Document" target="org.ulco.JSON">
-                  <point x="4.833333333333371" y="-16.5" />
+                  <point x="4.833333333333343" y="-16.5" />
                   <point x="21.25" y="16.5" />
                 </edge>
                 <edge source="org.ulco.JSON" target="org.ulco.Rectangle">
-                  <point x="12.142857142857167" y="-16.5" />
-                  <point x="341.0428517560871" y="339.0" />
-                  <point x="396.9899743230625" y="339.0" />
+                  <point x="12.142857142857139" y="-16.5" />
+                  <point x="341.042851756087" y="339.0" />
+                  <point x="396.9899743230624" y="339.0" />
                   <point x="0.0" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Square" target="org.ulco.GraphicsObject">
                   <point x="-37.19999999999999" y="-16.5" />
-                  <point x="482.2899743230625" y="226.0" />
-                  <point x="339.875641025641" y="226.0" />
+                  <point x="482.28997432306244" y="226.0" />
+                  <point x="339.87564102564096" y="226.0" />
                   <point x="33.69230769230768" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Document" target="org.ulco.GraphicsObjects">
-                  <point x="-43.5" y="-16.5" />
-                  <point x="301.8166612798966" y="555.0" />
+                  <point x="-43.49999999999997" y="-16.5" />
+                  <point x="301.8166612798965" y="555.0" />
                   <point x="57.375" y="555.0" />
                   <point x="-19.125" y="16.5" />
                 </edge>
                 <edge source="org.ulco.JSON" target="org.ulco.Square">
                   <point x="24.285714285714278" y="-16.5" />
-                  <point x="353.1857088989442" y="349.0" />
-                  <point x="496.2399743230625" y="349.0" />
+                  <point x="353.18570889894414" y="349.0" />
+                  <point x="496.2399743230624" y="349.0" />
                   <point x="-23.25" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Document" target="org.ulco.Circle">
-                  <point x="33.833333333333314" y="-16.5" />
-                  <point x="379.1499946132299" y="545.0" />
-                  <point x="648.9899743230625" y="545.0" />
+                  <point x="33.83333333333334" y="-16.5" />
+                  <point x="379.14999461322986" y="545.0" />
+                  <point x="648.9899743230624" y="545.0" />
                   <point x="21.0" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Layer" target="org.ulco.JSON">
-                  <point x="18.22222222222223" y="-16.5" />
+                  <point x="18.22222222222222" y="-16.5" />
                   <point x="210.65108543417358" y="432.0" />
                   <point x="293.48332794656324" y="432.0" />
-                  <point x="-35.416666666666686" y="16.5" />
+                  <point x="-35.41666666666666" y="16.5" />
                 </edge>
                 <edge source="org.ulco.JSON" target="org.ulco.Circle">
                   <point x="36.428571428571445" y="-16.5" />
-                  <point x="365.32856604180137" y="359.0" />
-                  <point x="606.9899743230625" y="359.0" />
+                  <point x="365.3285660418013" y="359.0" />
+                  <point x="606.9899743230624" y="359.0" />
                   <point x="-21.0" y="16.5" />
                 </edge>
                 <edge source="org.ulco.GraphicsObject" target="org.ulco.ID">
                   <point x="-36.5" y="-16.5" />
-                  <point x="269.68333333333334" y="53.0" />
-                  <point x="242.68416199813262" y="53.0" />
+                  <point x="269.6833333333333" y="53.0" />
+                  <point x="242.6841619981326" y="53.0" />
                   <point x="21.0" y="16.5" />
                 </edge>
                 <edge source="org.ulco.GraphicsObjects" target="org.ulco.GraphicsObject">
                   <point x="0.0" y="-16.5" />
                   <point x="76.5" y="216.0" />
-                  <point x="238.79871794871795" y="216.0" />
+                  <point x="238.7987179487179" y="216.0" />
                   <point x="-67.38461538461539" y="16.5" />
                 </edge>
                 <edge source="org.ulco.JSON" target="org.ulco.Group">
                   <point x="-24.285714285714278" y="-16.5" />
-                  <point x="304.61428032751564" y="349.0" />
-                  <point x="256.5399743230625" y="349.0" />
+                  <point x="304.6142803275156" y="349.0" />
+                  <point x="256.53997432306244" y="349.0" />
                   <point x="0.0" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Square" target="org.ulco.Point">
                   <point x="0.0" y="-16.5" />
                   <point x="519.4899743230625" y="256.0" />
-                  <point x="521.2841619981326" y="256.0" />
-                  <point x="521.2841619981326" y="123.0" />
-                  <point x="523.8913048552755" y="123.0" />
-                  <point x="-2.8928571428571104" y="16.5" />
+                  <point x="521.2841619981325" y="256.0" />
+                  <point x="521.2841619981325" y="123.0" />
+                  <point x="523.8913048552754" y="123.0" />
+                  <point x="-2.892857142857139" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Rectangle" target="org.ulco.Point">
                   <point x="0.0" y="-16.5" />
-                  <point x="396.9899743230625" y="256.0" />
-                  <point x="402.58416199813263" y="256.0" />
-                  <point x="402.58416199813263" y="93.0" />
-                  <point x="506.5341619981326" y="93.0" />
+                  <point x="396.9899743230624" y="256.0" />
+                  <point x="402.5841619981326" y="256.0" />
+                  <point x="402.5841619981326" y="93.0" />
+                  <point x="506.53416199813256" y="93.0" />
                   <point x="-20.25" y="16.5" />
                 </edge>
                 <edge source="org.ulco.JSON" target="org.ulco.GraphicsObject">
                   <point x="0.0" y="-16.5" />
-                  <point x="328.8999946132299" y="329.0" />
+                  <point x="328.89999461322986" y="329.0" />
                   <point x="316.1841619981326" y="329.0" />
                   <point x="316.1841619981326" y="256.0" />
-                  <point x="306.18333333333334" y="256.0" />
+                  <point x="306.1833333333333" y="256.0" />
                   <point x="0.0" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Circle" target="org.ulco.Point">
                   <point x="0.0" y="-16.5" />
-                  <point x="627.9899743230625" y="103.0" />
+                  <point x="627.9899743230624" y="103.0" />
                   <point x="541.2484477124183" y="103.0" />
-                  <point x="14.464285714285666" y="16.5" />
+                  <point x="14.464285714285722" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Layer" target="org.ulco.GraphicsObjects">
                   <point x="-36.44444444444446" y="-16.5" />
@@ -162,41 +169,41 @@
                   <point x="19.125" y="16.5" />
                 </edge>
                 <edge source="org.ulco.JSON" target="org.ulco.Layer">
-                  <point x="-7.083333333333314" y="16.5" />
-                  <point x="321.8166612798966" y="452.0" />
+                  <point x="-7.083333333333343" y="16.5" />
+                  <point x="321.8166612798965" y="452.0" />
                   <point x="228.8733076563958" y="452.0" />
                   <point x="36.44444444444446" y="-16.5" />
                 </edge>
                 <edge source="org.ulco.Circle" target="org.ulco.GraphicsObject">
-                  <point x="-33.60000000000002" y="-16.5" />
+                  <point x="-33.599999999999994" y="-16.5" />
                   <point x="594.3899743230625" y="206.0" />
                   <point x="362.33717948717947" y="206.0" />
-                  <point x="56.15384615384613" y="16.5" />
+                  <point x="56.15384615384619" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Rectangle" target="org.ulco.GraphicsObject">
                   <point x="-44.80000000000001" y="-16.5" />
-                  <point x="352.1899743230625" y="246.0" />
-                  <point x="317.41410256410256" y="246.0" />
+                  <point x="352.1899743230624" y="246.0" />
+                  <point x="317.4141025641025" y="246.0" />
                   <point x="11.230769230769226" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Group" target="org.ulco.GraphicsObject">
                   <point x="35.60000000000002" y="-16.5" />
-                  <point x="292.1399743230625" y="256.0" />
-                  <point x="294.9525641025641" y="256.0" />
+                  <point x="292.13997432306246" y="256.0" />
+                  <point x="294.95256410256405" y="256.0" />
                   <point x="-11.230769230769226" y="16.5" />
                 </edge>
                 <edge source="org.ulco.JSON" target="org.ulco.Document">
-                  <point x="35.416666666666686" y="16.5" />
-                  <point x="364.3166612798966" y="452.0" />
-                  <point x="359.8166612798966" y="452.0" />
+                  <point x="35.41666666666666" y="16.5" />
+                  <point x="364.3166612798965" y="452.0" />
+                  <point x="359.8166612798965" y="452.0" />
                   <point x="14.5" y="-16.5" />
                 </edge>
                 <edge source="org.ulco.Group" target="org.ulco.ID">
                   <point x="-35.599999999999994" y="-16.5" />
-                  <point x="220.9399743230625" y="206.0" />
-                  <point x="211.68333333333334" y="206.0" />
-                  <point x="211.68333333333334" y="53.0" />
-                  <point x="221.68416199813262" y="53.0" />
+                  <point x="220.93997432306247" y="206.0" />
+                  <point x="211.68333333333328" y="206.0" />
+                  <point x="211.68333333333328" y="53.0" />
+                  <point x="221.6841619981326" y="53.0" />
                   <point x="0.0" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Layer" target="org.ulco.Point">
@@ -204,45 +211,45 @@
                   <point x="183.31775210084024" y="452.0" />
                   <point x="180.56025102348633" y="452.0" />
                   <point x="180.56025102348633" y="63.0" />
-                  <point x="489.17701914098984" y="63.0" />
-                  <point x="-37.60714285714283" y="16.5" />
+                  <point x="489.1770191409897" y="63.0" />
+                  <point x="-37.60714285714286" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Document" target="org.ulco.Square">
-                  <point x="24.166666666666686" y="-16.5" />
-                  <point x="369.4833279465633" y="535.0" />
-                  <point x="542.7399743230625" y="535.0" />
+                  <point x="24.16666666666667" y="-16.5" />
+                  <point x="369.4833279465632" y="535.0" />
+                  <point x="542.7399743230624" y="535.0" />
                   <point x="23.249999999999986" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Document" target="org.ulco.Layer">
                   <point x="-33.833333333333314" y="-16.5" />
-                  <point x="311.4833279465633" y="545.0" />
+                  <point x="311.4833279465632" y="545.0" />
                   <point x="165.095529878618" y="545.0" />
-                  <point x="-27.333333333333343" y="16.5" />
+                  <point x="-27.333333333333332" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Layer" target="org.ulco.GraphicsObject">
                   <point x="9.111111111111114" y="-16.5" />
-                  <point x="201.5399743230625" y="236.0" />
-                  <point x="261.26025641025643" y="236.0" />
+                  <point x="201.53997432306247" y="236.0" />
+                  <point x="261.2602564102564" y="236.0" />
                   <point x="-44.923076923076906" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Group" target="org.ulco.Point">
                   <point x="-17.799999999999983" y="-16.5" />
-                  <point x="238.7399743230625" y="196.0" />
-                  <point x="222.68333333333334" y="196.0" />
-                  <point x="222.68333333333334" y="73.0" />
-                  <point x="494.96273342670406" y="73.0" />
+                  <point x="238.73997432306248" y="196.0" />
+                  <point x="222.68333333333328" y="196.0" />
+                  <point x="222.68333333333328" y="73.0" />
+                  <point x="494.962733426704" y="73.0" />
                   <point x="-31.821428571428555" y="16.5" />
                 </edge>
                 <edge source="org.ulco.Document" target="org.ulco.Point">
                   <point x="43.5" y="-16.5" />
-                  <point x="388.8166612798966" y="555.0" />
-                  <point x="680.4899743230625" y="555.0" />
-                  <point x="680.4899743230625" y="73.0" />
+                  <point x="388.8166612798965" y="555.0" />
+                  <point x="680.4899743230624" y="555.0" />
+                  <point x="680.4899743230624" y="73.0" />
                   <point x="558.6055905695612" y="73.0" />
-                  <point x="31.821428571428555" y="16.5" />
+                  <point x="31.821428571428584" y="16.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-85.0" y="213.0" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-330.0" y="252.0" />
               <SelectedNodes>
                 <node>org.ulco.Document</node>
               </SelectedNodes>
@@ -253,7 +260,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Group.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Group.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/ulco/Group.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2432">
@@ -311,6 +318,7 @@
         <option value="$PROJECT_DIR$/src/test/CircleTest.java" />
         <option value="$PROJECT_DIR$/src/org/ulco/GraphicsObject.java" />
         <option value="$PROJECT_DIR$/src/org/ulco/Group.java" />
+        <option value="$PROJECT_DIR$/src/org/ulco/JSON.java" />
       </list>
     </option>
   </component>
@@ -868,29 +876,11 @@
       <option name="presentableId" value="Default" />
       <updated>1510567023439</updated>
       <workItem from="1510567026767" duration="691000" />
-      <workItem from="1510748422193" duration="9140000" />
+      <workItem from="1510748422193" duration="14322000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GroupTest - 2017.11.15 at 14h 18m 09s.xml">
-      <configuration name="GroupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GroupTest - 2017.11.15 at 15h 05m 38s.xml">
-      <configuration name="GroupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GroupTest - 2017.11.15 at 15h 39m 34s.xml">
-      <configuration name="GroupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Unnamed - 2017.11.15 at 15h 39m 54s.xml">
-      <configuration name="Unnamed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Unnamed - 2017.11.15 at 15h 41m 56s.xml">
-      <configuration name="Unnamed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Unnamed - 2017.11.15 at 15h 44m 29s.xml">
-      <configuration name="Unnamed" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Unnamed - 2017.11.15 at 15h 44m 56s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
@@ -903,9 +893,27 @@
     <history-entry file="Unnamed - 2017.11.15 at 15h 55m 08s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Unnamed - 2017.11.16 at 13h 08m 06s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Unnamed - 2017.11.16 at 13h 37m 50s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Unnamed - 2017.11.16 at 14h 11m 02s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Unnamed - 2017.11.16 at 14h 11m 35s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Unnamed - 2017.11.16 at 14h 12m 07s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Unnamed - 2017.11.16 at 14h 13m 35s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9831000" />
+    <option name="totallyTimeSpent" value="15013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -949,7 +957,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1086,237 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/org.ulco">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.ulco</OriginalElement>
-          <nodes>
-            <node x="287.3166612798966" y="585.0">org.ulco.Document</node>
-            <node x="0.0" y="379.0">org.ulco.GraphicsObjects</node>
-            <node x="340.9899743230625" y="276.0">org.ulco.Rectangle</node>
-            <node x="585.9899743230625" y="276.0">org.ulco.Circle</node>
-            <node x="212.0399743230625" y="276.0">org.ulco.Group</node>
-            <node x="233.18333333333334" y="143.0">org.ulco.GraphicsObject</node>
-            <node x="151.42886321195135" y="472.0">org.ulco.Layer</node>
-            <node x="486.2841619981326" y="0.0">org.ulco.Point</node>
-            <node x="472.9899743230625" y="276.0">org.ulco.Square</node>
-            <node x="190.18416199813262" y="0.0">org.ulco.ID</node>
-            <node x="286.3999946132299" y="379.0">org.ulco.JSON</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.ulco.Group" target="org.ulco.JSON">
-              <point x="29.666666666666686" y="16.5" />
-              <point x="286.2066409897292" y="339.0" />
-              <point x="316.75713747037275" y="339.0" />
-              <point x="-12.142857142857167" y="-16.5" />
-            </edge>
-            <edge source="org.ulco.Layer" target="org.ulco.ID">
-              <point x="-18.22222222222223" y="-16.5" />
-              <point x="174.20664098972912" y="432.0" />
-              <point x="163.5" y="432.0" />
-              <point x="163.5" y="53.0" />
-              <point x="200.68416199813262" y="53.0" />
-              <point x="-21.0" y="16.5" />
-            </edge>
-            <edge source="org.ulco.GraphicsObject" target="org.ulco.Point">
-              <point x="36.5" y="-16.5" />
-              <point x="342.68333333333334" y="83.0" />
-              <point x="500.7484477124184" y="83.0" />
-              <point x="-26.035714285714278" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Document" target="org.ulco.JSON">
-              <point x="4.833333333333371" y="-16.5" />
-              <point x="21.25" y="16.5" />
-            </edge>
-            <edge source="org.ulco.JSON" target="org.ulco.Rectangle">
-              <point x="12.142857142857167" y="-16.5" />
-              <point x="341.0428517560871" y="339.0" />
-              <point x="396.9899743230625" y="339.0" />
-              <point x="0.0" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Square" target="org.ulco.GraphicsObject">
-              <point x="-37.19999999999999" y="-16.5" />
-              <point x="482.2899743230625" y="226.0" />
-              <point x="339.875641025641" y="226.0" />
-              <point x="33.69230769230768" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Document" target="org.ulco.GraphicsObjects">
-              <point x="-43.5" y="-16.5" />
-              <point x="301.8166612798966" y="555.0" />
-              <point x="57.375" y="555.0" />
-              <point x="-19.125" y="16.5" />
-            </edge>
-            <edge source="org.ulco.JSON" target="org.ulco.Square">
-              <point x="24.285714285714278" y="-16.5" />
-              <point x="353.1857088989442" y="349.0" />
-              <point x="496.2399743230625" y="349.0" />
-              <point x="-23.25" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Document" target="org.ulco.Circle">
-              <point x="33.833333333333314" y="-16.5" />
-              <point x="379.1499946132299" y="545.0" />
-              <point x="648.9899743230625" y="545.0" />
-              <point x="21.0" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Layer" target="org.ulco.JSON">
-              <point x="18.22222222222223" y="-16.5" />
-              <point x="210.65108543417358" y="432.0" />
-              <point x="293.48332794656324" y="432.0" />
-              <point x="-35.416666666666686" y="16.5" />
-            </edge>
-            <edge source="org.ulco.JSON" target="org.ulco.Circle">
-              <point x="36.428571428571445" y="-16.5" />
-              <point x="365.32856604180137" y="359.0" />
-              <point x="606.9899743230625" y="359.0" />
-              <point x="-21.0" y="16.5" />
-            </edge>
-            <edge source="org.ulco.GraphicsObject" target="org.ulco.ID">
-              <point x="-36.5" y="-16.5" />
-              <point x="269.68333333333334" y="53.0" />
-              <point x="242.68416199813262" y="53.0" />
-              <point x="21.0" y="16.5" />
-            </edge>
-            <edge source="org.ulco.GraphicsObjects" target="org.ulco.GraphicsObject">
-              <point x="0.0" y="-16.5" />
-              <point x="76.5" y="216.0" />
-              <point x="238.79871794871795" y="216.0" />
-              <point x="-67.38461538461539" y="16.5" />
-            </edge>
-            <edge source="org.ulco.JSON" target="org.ulco.Group">
-              <point x="-24.285714285714278" y="-16.5" />
-              <point x="304.61428032751564" y="349.0" />
-              <point x="256.5399743230625" y="349.0" />
-              <point x="0.0" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Square" target="org.ulco.Point">
-              <point x="0.0" y="-16.5" />
-              <point x="519.4899743230625" y="256.0" />
-              <point x="521.2841619981326" y="256.0" />
-              <point x="521.2841619981326" y="123.0" />
-              <point x="523.8913048552755" y="123.0" />
-              <point x="-2.8928571428571104" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Rectangle" target="org.ulco.Point">
-              <point x="0.0" y="-16.5" />
-              <point x="396.9899743230625" y="256.0" />
-              <point x="402.58416199813263" y="256.0" />
-              <point x="402.58416199813263" y="93.0" />
-              <point x="506.5341619981326" y="93.0" />
-              <point x="-20.25" y="16.5" />
-            </edge>
-            <edge source="org.ulco.JSON" target="org.ulco.GraphicsObject">
-              <point x="0.0" y="-16.5" />
-              <point x="328.8999946132299" y="329.0" />
-              <point x="316.1841619981326" y="329.0" />
-              <point x="316.1841619981326" y="256.0" />
-              <point x="306.18333333333334" y="256.0" />
-              <point x="0.0" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Circle" target="org.ulco.Point">
-              <point x="0.0" y="-16.5" />
-              <point x="627.9899743230625" y="103.0" />
-              <point x="541.2484477124183" y="103.0" />
-              <point x="14.464285714285666" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Layer" target="org.ulco.GraphicsObjects">
-              <point x="-36.44444444444446" y="-16.5" />
-              <point x="155.9844187675069" y="452.0" />
-              <point x="95.625" y="452.0" />
-              <point x="19.125" y="16.5" />
-            </edge>
-            <edge source="org.ulco.JSON" target="org.ulco.Layer">
-              <point x="-7.083333333333314" y="16.5" />
-              <point x="321.8166612798966" y="452.0" />
-              <point x="228.8733076563958" y="452.0" />
-              <point x="36.44444444444446" y="-16.5" />
-            </edge>
-            <edge source="org.ulco.Circle" target="org.ulco.GraphicsObject">
-              <point x="-33.60000000000002" y="-16.5" />
-              <point x="594.3899743230625" y="206.0" />
-              <point x="362.33717948717947" y="206.0" />
-              <point x="56.15384615384613" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Rectangle" target="org.ulco.GraphicsObject">
-              <point x="-44.80000000000001" y="-16.5" />
-              <point x="352.1899743230625" y="246.0" />
-              <point x="317.41410256410256" y="246.0" />
-              <point x="11.230769230769226" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Group" target="org.ulco.GraphicsObject">
-              <point x="35.60000000000002" y="-16.5" />
-              <point x="292.1399743230625" y="256.0" />
-              <point x="294.9525641025641" y="256.0" />
-              <point x="-11.230769230769226" y="16.5" />
-            </edge>
-            <edge source="org.ulco.JSON" target="org.ulco.Document">
-              <point x="35.416666666666686" y="16.5" />
-              <point x="364.3166612798966" y="452.0" />
-              <point x="359.8166612798966" y="452.0" />
-              <point x="14.5" y="-16.5" />
-            </edge>
-            <edge source="org.ulco.Group" target="org.ulco.ID">
-              <point x="-35.599999999999994" y="-16.5" />
-              <point x="220.9399743230625" y="206.0" />
-              <point x="211.68333333333334" y="206.0" />
-              <point x="211.68333333333334" y="53.0" />
-              <point x="221.68416199813262" y="53.0" />
-              <point x="0.0" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Layer" target="org.ulco.Point">
-              <point x="-9.111111111111114" y="-16.5" />
-              <point x="183.31775210084024" y="452.0" />
-              <point x="180.56025102348633" y="452.0" />
-              <point x="180.56025102348633" y="63.0" />
-              <point x="489.17701914098984" y="63.0" />
-              <point x="-37.60714285714283" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Document" target="org.ulco.Square">
-              <point x="24.166666666666686" y="-16.5" />
-              <point x="369.4833279465633" y="535.0" />
-              <point x="542.7399743230625" y="535.0" />
-              <point x="23.249999999999986" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Document" target="org.ulco.Layer">
-              <point x="-33.833333333333314" y="-16.5" />
-              <point x="311.4833279465633" y="545.0" />
-              <point x="165.095529878618" y="545.0" />
-              <point x="-27.333333333333343" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Layer" target="org.ulco.GraphicsObject">
-              <point x="9.111111111111114" y="-16.5" />
-              <point x="201.5399743230625" y="236.0" />
-              <point x="261.26025641025643" y="236.0" />
-              <point x="-44.923076923076906" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Group" target="org.ulco.Point">
-              <point x="-17.799999999999983" y="-16.5" />
-              <point x="238.7399743230625" y="196.0" />
-              <point x="222.68333333333334" y="196.0" />
-              <point x="222.68333333333334" y="73.0" />
-              <point x="494.96273342670406" y="73.0" />
-              <point x="-31.821428571428555" y="16.5" />
-            </edge>
-            <edge source="org.ulco.Document" target="org.ulco.Point">
-              <point x="43.5" y="-16.5" />
-              <point x="388.8166612798966" y="555.0" />
-              <point x="680.4899743230625" y="555.0" />
-              <point x="680.4899743230625" y="73.0" />
-              <point x="558.6055905695612" y="73.0" />
-              <point x="31.821428571428555" y="16.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-85.0" y="213.0" />
-          <SelectedNodes>
-            <node>org.ulco.Document</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/ulco/GraphicsObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1336,6 +1115,245 @@
             <element signature="e#1187#1188#0" expanded="true" />
             <element signature="e#1214#1215#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.ulco">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.ulco</OriginalElement>
+          <nodes>
+            <node x="287.3166612798965" y="585.0">org.ulco.Document</node>
+            <node x="0.0" y="379.0">org.ulco.GraphicsObjects</node>
+            <node x="340.9899743230624" y="276.0">org.ulco.Rectangle</node>
+            <node x="585.9899743230624" y="276.0">org.ulco.Circle</node>
+            <node x="212.03997432306247" y="276.0">org.ulco.Group</node>
+            <node x="233.18333333333328" y="143.0">org.ulco.GraphicsObject</node>
+            <node x="151.42886321195135" y="472.0">org.ulco.Layer</node>
+            <node x="486.28416199813256" y="0.0">org.ulco.Point</node>
+            <node x="472.9899743230624" y="276.0">org.ulco.Square</node>
+            <node x="190.1841619981326" y="0.0">org.ulco.ID</node>
+            <node x="286.39999461322986" y="379.0">org.ulco.JSON</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.ulco.Group" target="org.ulco.JSON">
+              <point x="29.666666666666686" y="16.5" />
+              <point x="286.2066409897292" y="339.0" />
+              <point x="316.7571374703727" y="339.0" />
+              <point x="-12.142857142857167" y="-16.5" />
+            </edge>
+            <edge source="org.ulco.Layer" target="org.ulco.ID">
+              <point x="-18.22222222222223" y="-16.5" />
+              <point x="174.20664098972912" y="432.0" />
+              <point x="163.5" y="432.0" />
+              <point x="163.5" y="53.0" />
+              <point x="200.6841619981326" y="53.0" />
+              <point x="-21.0" y="16.5" />
+            </edge>
+            <edge source="org.ulco.GraphicsObject" target="org.ulco.Point">
+              <point x="36.5" y="-16.5" />
+              <point x="342.6833333333333" y="83.0" />
+              <point x="500.7484477124183" y="83.0" />
+              <point x="-26.035714285714278" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Document" target="org.ulco.JSON">
+              <point x="4.833333333333343" y="-16.5" />
+              <point x="21.25" y="16.5" />
+            </edge>
+            <edge source="org.ulco.JSON" target="org.ulco.Rectangle">
+              <point x="12.142857142857139" y="-16.5" />
+              <point x="341.042851756087" y="339.0" />
+              <point x="396.9899743230624" y="339.0" />
+              <point x="0.0" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Square" target="org.ulco.GraphicsObject">
+              <point x="-37.19999999999999" y="-16.5" />
+              <point x="482.28997432306244" y="226.0" />
+              <point x="339.87564102564096" y="226.0" />
+              <point x="33.69230769230768" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Document" target="org.ulco.GraphicsObjects">
+              <point x="-43.49999999999997" y="-16.5" />
+              <point x="301.8166612798965" y="555.0" />
+              <point x="57.375" y="555.0" />
+              <point x="-19.125" y="16.5" />
+            </edge>
+            <edge source="org.ulco.JSON" target="org.ulco.Square">
+              <point x="24.285714285714278" y="-16.5" />
+              <point x="353.18570889894414" y="349.0" />
+              <point x="496.2399743230624" y="349.0" />
+              <point x="-23.25" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Document" target="org.ulco.Circle">
+              <point x="33.83333333333334" y="-16.5" />
+              <point x="379.14999461322986" y="545.0" />
+              <point x="648.9899743230624" y="545.0" />
+              <point x="21.0" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Layer" target="org.ulco.JSON">
+              <point x="18.22222222222222" y="-16.5" />
+              <point x="210.65108543417358" y="432.0" />
+              <point x="293.48332794656324" y="432.0" />
+              <point x="-35.41666666666666" y="16.5" />
+            </edge>
+            <edge source="org.ulco.JSON" target="org.ulco.Circle">
+              <point x="36.428571428571445" y="-16.5" />
+              <point x="365.3285660418013" y="359.0" />
+              <point x="606.9899743230624" y="359.0" />
+              <point x="-21.0" y="16.5" />
+            </edge>
+            <edge source="org.ulco.GraphicsObject" target="org.ulco.ID">
+              <point x="-36.5" y="-16.5" />
+              <point x="269.6833333333333" y="53.0" />
+              <point x="242.6841619981326" y="53.0" />
+              <point x="21.0" y="16.5" />
+            </edge>
+            <edge source="org.ulco.GraphicsObjects" target="org.ulco.GraphicsObject">
+              <point x="0.0" y="-16.5" />
+              <point x="76.5" y="216.0" />
+              <point x="238.7987179487179" y="216.0" />
+              <point x="-67.38461538461539" y="16.5" />
+            </edge>
+            <edge source="org.ulco.JSON" target="org.ulco.Group">
+              <point x="-24.285714285714278" y="-16.5" />
+              <point x="304.6142803275156" y="349.0" />
+              <point x="256.53997432306244" y="349.0" />
+              <point x="0.0" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Square" target="org.ulco.Point">
+              <point x="0.0" y="-16.5" />
+              <point x="519.4899743230625" y="256.0" />
+              <point x="521.2841619981325" y="256.0" />
+              <point x="521.2841619981325" y="123.0" />
+              <point x="523.8913048552754" y="123.0" />
+              <point x="-2.892857142857139" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Rectangle" target="org.ulco.Point">
+              <point x="0.0" y="-16.5" />
+              <point x="396.9899743230624" y="256.0" />
+              <point x="402.5841619981326" y="256.0" />
+              <point x="402.5841619981326" y="93.0" />
+              <point x="506.53416199813256" y="93.0" />
+              <point x="-20.25" y="16.5" />
+            </edge>
+            <edge source="org.ulco.JSON" target="org.ulco.GraphicsObject">
+              <point x="0.0" y="-16.5" />
+              <point x="328.89999461322986" y="329.0" />
+              <point x="316.1841619981326" y="329.0" />
+              <point x="316.1841619981326" y="256.0" />
+              <point x="306.1833333333333" y="256.0" />
+              <point x="0.0" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Circle" target="org.ulco.Point">
+              <point x="0.0" y="-16.5" />
+              <point x="627.9899743230624" y="103.0" />
+              <point x="541.2484477124183" y="103.0" />
+              <point x="14.464285714285722" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Layer" target="org.ulco.GraphicsObjects">
+              <point x="-36.44444444444446" y="-16.5" />
+              <point x="155.9844187675069" y="452.0" />
+              <point x="95.625" y="452.0" />
+              <point x="19.125" y="16.5" />
+            </edge>
+            <edge source="org.ulco.JSON" target="org.ulco.Layer">
+              <point x="-7.083333333333343" y="16.5" />
+              <point x="321.8166612798965" y="452.0" />
+              <point x="228.8733076563958" y="452.0" />
+              <point x="36.44444444444446" y="-16.5" />
+            </edge>
+            <edge source="org.ulco.Circle" target="org.ulco.GraphicsObject">
+              <point x="-33.599999999999994" y="-16.5" />
+              <point x="594.3899743230625" y="206.0" />
+              <point x="362.33717948717947" y="206.0" />
+              <point x="56.15384615384619" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Rectangle" target="org.ulco.GraphicsObject">
+              <point x="-44.80000000000001" y="-16.5" />
+              <point x="352.1899743230624" y="246.0" />
+              <point x="317.4141025641025" y="246.0" />
+              <point x="11.230769230769226" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Group" target="org.ulco.GraphicsObject">
+              <point x="35.60000000000002" y="-16.5" />
+              <point x="292.13997432306246" y="256.0" />
+              <point x="294.95256410256405" y="256.0" />
+              <point x="-11.230769230769226" y="16.5" />
+            </edge>
+            <edge source="org.ulco.JSON" target="org.ulco.Document">
+              <point x="35.41666666666666" y="16.5" />
+              <point x="364.3166612798965" y="452.0" />
+              <point x="359.8166612798965" y="452.0" />
+              <point x="14.5" y="-16.5" />
+            </edge>
+            <edge source="org.ulco.Group" target="org.ulco.ID">
+              <point x="-35.599999999999994" y="-16.5" />
+              <point x="220.93997432306247" y="206.0" />
+              <point x="211.68333333333328" y="206.0" />
+              <point x="211.68333333333328" y="53.0" />
+              <point x="221.6841619981326" y="53.0" />
+              <point x="0.0" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Layer" target="org.ulco.Point">
+              <point x="-9.111111111111114" y="-16.5" />
+              <point x="183.31775210084024" y="452.0" />
+              <point x="180.56025102348633" y="452.0" />
+              <point x="180.56025102348633" y="63.0" />
+              <point x="489.1770191409897" y="63.0" />
+              <point x="-37.60714285714286" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Document" target="org.ulco.Square">
+              <point x="24.16666666666667" y="-16.5" />
+              <point x="369.4833279465632" y="535.0" />
+              <point x="542.7399743230624" y="535.0" />
+              <point x="23.249999999999986" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Document" target="org.ulco.Layer">
+              <point x="-33.833333333333314" y="-16.5" />
+              <point x="311.4833279465632" y="545.0" />
+              <point x="165.095529878618" y="545.0" />
+              <point x="-27.333333333333332" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Layer" target="org.ulco.GraphicsObject">
+              <point x="9.111111111111114" y="-16.5" />
+              <point x="201.53997432306247" y="236.0" />
+              <point x="261.2602564102564" y="236.0" />
+              <point x="-44.923076923076906" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Group" target="org.ulco.Point">
+              <point x="-17.799999999999983" y="-16.5" />
+              <point x="238.73997432306248" y="196.0" />
+              <point x="222.68333333333328" y="196.0" />
+              <point x="222.68333333333328" y="73.0" />
+              <point x="494.962733426704" y="73.0" />
+              <point x="-31.821428571428555" y="16.5" />
+            </edge>
+            <edge source="org.ulco.Document" target="org.ulco.Point">
+              <point x="43.5" y="-16.5" />
+              <point x="388.8166612798965" y="555.0" />
+              <point x="680.4899743230624" y="555.0" />
+              <point x="680.4899743230624" y="73.0" />
+              <point x="558.6055905695612" y="73.0" />
+              <point x="31.821428571428584" y="16.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-330.0" y="252.0" />
+          <SelectedNodes>
+            <node>org.ulco.Document</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/ulco/JSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
