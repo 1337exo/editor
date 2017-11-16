@@ -126,5 +126,9 @@ public class Document {
         return str + " } }";
     }
 
+    public Vector<Layer> getM_layers() {
+        return m_layers;
+    }
+
     private Vector<Layer> m_layers;
 }

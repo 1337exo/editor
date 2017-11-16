@@ -102,6 +102,10 @@ public class Layer {
         return str + " } }";
     }
 
+    public Vector<GraphicsObject> getM_list() {
+        return m_list;
+    }
+
     private Vector<GraphicsObject> m_list;
     private int m_ID;
 }

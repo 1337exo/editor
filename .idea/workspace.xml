@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee73518-0376-4a38-83e7-9b8b15cad9f6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/ulco/Utilities.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/ulco/GraphicsObject.java" afterPath="$PROJECT_DIR$/src/org/ulco/GraphicsObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/ulco/Group.java" afterPath="$PROJECT_DIR$/src/org/ulco/Group.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/ulco/ID.java" afterPath="$PROJECT_DIR$/src/org/ulco/ID.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/ulco/Document.java" afterPath="$PROJECT_DIR$/src/org/ulco/Document.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/ulco/Layer.java" afterPath="$PROJECT_DIR$/src/org/ulco/Layer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/LayerTest.java" afterPath="$PROJECT_DIR$/src/test/LayerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/DocumentTest.java" afterPath="$PROJECT_DIR$/src/test/DocumentTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,6 +21,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Document.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/ulco/Document.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="128" column="40" lean-forward="false" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+              <folding>
+                <element signature="e#3502#3503#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="JSON.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/ulco/JSON.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -32,221 +43,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/org.ulco" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/org.ulco">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>org.ulco</OriginalElement>
-              <nodes>
-                <node x="247.6736290670113" y="575.0">org.ulco.Document</node>
-                <node x="0.0" y="359.0">org.ulco.GraphicsObjects</node>
-                <node x="460.138783846872" y="276.0">org.ulco.Rectangle</node>
-                <node x="592.138783846872" y="276.0">org.ulco.Circle</node>
-                <node x="208.68878384687196" y="276.0">org.ulco.Group</node>
-                <node x="233.18333333333328" y="143.0">org.ulco.GraphicsObject</node>
-                <node x="148.07767273576084" y="452.0">org.ulco.Layer</node>
-                <node x="490.03662464985996" y="0.0">org.ulco.Point</node>
-                <node x="347.138783846872" y="276.0">org.ulco.Square</node>
-                <node x="189.23662464986" y="0.0">org.ulco.ID</node>
-                <node x="232.66162464985996" y="359.0">org.ulco.JSON</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="org.ulco.Group" target="org.ulco.JSON">
-                  <point x="29.666666666666686" y="16.5" />
-                  <point x="282.85545051353864" y="334.0" />
-                  <point x="285.78662464985996" y="334.0" />
-                  <point x="10.625" y="-16.5" />
-                </edge>
-                <edge source="org.ulco.Layer" target="org.ulco.ID">
-                  <point x="-18.22222222222223" y="-16.5" />
-                  <point x="170.8554505135386" y="412.0" />
-                  <point x="163.5" y="412.0" />
-                  <point x="163.5" y="53.0" />
-                  <point x="199.73662464986" y="53.0" />
-                  <point x="-21.0" y="16.5" />
-                </edge>
-                <edge source="org.ulco.GraphicsObject" target="org.ulco.Point">
-                  <point x="36.5" y="-16.5" />
-                  <point x="342.6833333333333" y="83.0" />
-                  <point x="504.5009103641457" y="83.0" />
-                  <point x="-26.035714285714278" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Document" target="org.ulco.JSON">
-                  <point x="14.5" y="-16.5" />
-                  <point x="320.1736290670113" y="422.0" />
-                  <point x="310.5782913165266" y="422.0" />
-                  <point x="35.41666666666663" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Square" target="org.ulco.GraphicsObject">
-                  <point x="-37.19999999999999" y="-16.5" />
-                  <point x="356.43878384687196" y="246.0" />
-                  <point x="317.4141025641025" y="246.0" />
-                  <point x="11.230769230769226" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Document" target="org.ulco.GraphicsObjects">
-                  <point x="-53.16666666666663" y="-16.5" />
-                  <point x="252.50696240034466" y="555.0" />
-                  <point x="47.70833333333337" y="555.0" />
-                  <point x="47.70833333333337" y="432.0" />
-                  <point x="19.125" y="432.0" />
-                  <point x="-57.375" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Document" target="org.ulco.Circle">
-                  <point x="33.833333333333314" y="-16.5" />
-                  <point x="339.5069624003446" y="535.0" />
-                  <point x="634.138783846872" y="535.0" />
-                  <point x="0.0" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Layer" target="org.ulco.JSON">
-                  <point x="18.22222222222223" y="-16.5" />
-                  <point x="207.29989495798307" y="412.0" />
-                  <point x="239.7449579831933" y="412.0" />
-                  <point x="-35.41666666666666" y="16.5" />
-                </edge>
-                <edge source="org.ulco.GraphicsObject" target="org.ulco.ID">
-                  <point x="-36.5" y="-16.5" />
-                  <point x="269.6833333333333" y="53.0" />
-                  <point x="241.73662464986" y="53.0" />
-                  <point x="21.0" y="16.5" />
-                </edge>
-                <edge source="org.ulco.GraphicsObjects" target="org.ulco.GraphicsObject">
-                  <point x="0.0" y="-16.5" />
-                  <point x="76.5" y="216.0" />
-                  <point x="238.7987179487179" y="216.0" />
-                  <point x="-67.38461538461539" y="16.5" />
-                </edge>
-                <edge source="org.ulco.JSON" target="org.ulco.Group">
-                  <point x="-10.625" y="-16.5" />
-                  <point x="264.53662464985996" y="334.0" />
-                  <point x="253.18878384687196" y="334.0" />
-                  <point x="0.0" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Square" target="org.ulco.Point">
-                  <point x="18.600000000000023" y="-16.5" />
-                  <point x="412.238783846872" y="256.0" />
-                  <point x="419.726920383538" y="256.0" />
-                  <point x="419.726920383538" y="103.0" />
-                  <point x="516.0723389355743" y="103.0" />
-                  <point x="-14.464285714285666" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Rectangle" target="org.ulco.Point">
-                  <point x="44.799999999999955" y="-16.5" />
-                  <point x="560.938783846872" y="256.0" />
-                  <point x="553.2269203835381" y="256.0" />
-                  <point x="553.2269203835381" y="113.0" />
-                  <point x="539.2151960784314" y="113.0" />
-                  <point x="8.678571428571445" y="16.5" />
-                </edge>
-                <edge source="org.ulco.JSON" target="org.ulco.GraphicsObject">
-                  <point x="31.875" y="-16.5" />
-                  <point x="307.03662464985996" y="334.0" />
-                  <point x="315.23662464985995" y="334.0" />
-                  <point x="315.23662464985995" y="256.0" />
-                  <point x="306.1833333333333" y="256.0" />
-                  <point x="0.0" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Circle" target="org.ulco.Point">
-                  <point x="0.0" y="-16.5" />
-                  <point x="634.138783846872" y="256.0" />
-                  <point x="637.43662464986" y="256.0" />
-                  <point x="637.43662464986" y="103.0" />
-                  <point x="545.0009103641456" y="103.0" />
-                  <point x="14.464285714285666" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Layer" target="org.ulco.GraphicsObjects">
-                  <point x="-27.333333333333343" y="-16.5" />
-                  <point x="161.7443394024275" y="422.0" />
-                  <point x="133.875" y="422.0" />
-                  <point x="57.375" y="16.5" />
-                </edge>
-                <edge source="org.ulco.JSON" target="org.ulco.Layer">
-                  <point x="-7.083333333333314" y="16.5" />
-                  <point x="268.07829131652665" y="432.0" />
-                  <point x="225.52211718020527" y="432.0" />
-                  <point x="36.44444444444443" y="-16.5" />
-                </edge>
-                <edge source="org.ulco.Circle" target="org.ulco.GraphicsObject">
-                  <point x="-33.60000000000002" y="-16.5" />
-                  <point x="600.538783846872" y="206.0" />
-                  <point x="362.33717948717947" y="206.0" />
-                  <point x="56.15384615384619" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Rectangle" target="org.ulco.GraphicsObject">
-                  <point x="-44.80000000000001" y="-16.5" />
-                  <point x="471.33878384687193" y="226.0" />
-                  <point x="339.87564102564096" y="226.0" />
-                  <point x="33.69230769230768" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Group" target="org.ulco.GraphicsObject">
-                  <point x="35.60000000000002" y="-16.5" />
-                  <point x="288.788783846872" y="256.0" />
-                  <point x="294.95256410256405" y="256.0" />
-                  <point x="-11.230769230769226" y="16.5" />
-                </edge>
-                <edge source="org.ulco.JSON" target="org.ulco.Document">
-                  <point x="7.083333333333314" y="16.5" />
-                  <point x="282.2449579831933" y="432.0" />
-                  <point x="283.8499999999999" y="432.0" />
-                  <point x="283.8499999999999" y="505.0" />
-                  <point x="300.840295733678" y="505.0" />
-                  <point x="-4.833333333333314" y="-16.5" />
-                </edge>
-                <edge source="org.ulco.Group" target="org.ulco.ID">
-                  <point x="-35.599999999999994" y="-16.5" />
-                  <point x="217.58878384687196" y="206.0" />
-                  <point x="211.68333333333328" y="206.0" />
-                  <point x="211.68333333333328" y="53.0" />
-                  <point x="220.73662464986" y="53.0" />
-                  <point x="0.0" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Layer" target="org.ulco.Point">
-                  <point x="-9.111111111111114" y="-16.5" />
-                  <point x="179.96656162464973" y="63.0" />
-                  <point x="492.9294817927171" y="63.0" />
-                  <point x="-37.60714285714283" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Document" target="org.ulco.Square">
-                  <point x="24.166666666666686" y="-16.5" />
-                  <point x="329.840295733678" y="525.0" />
-                  <point x="393.638783846872" y="525.0" />
-                  <point x="0.0" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Document" target="org.ulco.Layer">
-                  <point x="-33.833333333333314" y="-16.5" />
-                  <point x="271.840295733678" y="535.0" />
-                  <point x="161.7443394024275" y="535.0" />
-                  <point x="-27.333333333333343" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Layer" target="org.ulco.GraphicsObject">
-                  <point x="9.111111111111114" y="-16.5" />
-                  <point x="198.18878384687196" y="236.0" />
-                  <point x="261.2602564102564" y="236.0" />
-                  <point x="-44.923076923076906" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Group" target="org.ulco.Point">
-                  <point x="-17.799999999999983" y="-16.5" />
-                  <point x="235.38878384687197" y="206.0" />
-                  <point x="222.68333333333328" y="206.0" />
-                  <point x="222.68333333333328" y="73.0" />
-                  <point x="498.7151960784314" y="73.0" />
-                  <point x="-31.821428571428555" y="16.5" />
-                </edge>
-                <edge source="org.ulco.Document" target="org.ulco.Point">
-                  <point x="53.166666666666686" y="-16.5" />
-                  <point x="358.840295733678" y="555.0" />
-                  <point x="696.3054505135387" y="555.0" />
-                  <point x="696.3054505135387" y="63.0" />
-                  <point x="568.1437675070028" y="63.0" />
-                  <point x="37.60714285714289" y="16.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-330.0" y="212.0" />
-              <SelectedNodes />
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+      <file leaf-file-name="DocumentTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/DocumentTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphicsObjects.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/ulco/GraphicsObjects.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -254,7 +66,7 @@
       <file leaf-file-name="Group.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/ulco/Group.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="-1314">
               <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="34" />
               <folding>
                 <element signature="e#639#640#0" expanded="true" />
@@ -278,50 +90,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LayerTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/LayerTest.java">
+      <file leaf-file-name="Layer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/ulco/Layer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphicsObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/ulco/GraphicsObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="483">
+              <caret line="104" column="47" lean-forward="false" selection-start-line="104" selection-start-column="47" selection-end-line="104" selection-end-column="47" />
               <folding>
-                <element signature="e#86#87#0" expanded="true" />
-                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#2743#2744#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Layer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/ulco/Layer.java">
+      <file leaf-file-name="Utilities.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/ulco/Utilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/GroupTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="115" column="7" lean-forward="false" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
+            <state relative-caret-position="180">
+              <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -338,14 +136,16 @@
         <option value="$PROJECT_DIR$/src/test/GroupTest.java" />
         <option value="$PROJECT_DIR$/src/test/RectangleTest.java" />
         <option value="$PROJECT_DIR$/src/test/SquareTest.java" />
-        <option value="$PROJECT_DIR$/src/test/DocumentTest.java" />
         <option value="$PROJECT_DIR$/src/test/CircleTest.java" />
         <option value="$PROJECT_DIR$/src/org/ulco/JSON.java" />
         <option value="$PROJECT_DIR$/src/org/ulco/ID.java" />
         <option value="$PROJECT_DIR$/src/org/ulco/Group.java" />
         <option value="$PROJECT_DIR$/src/org/ulco/GraphicsObject.java" />
-        <option value="$PROJECT_DIR$/src/org/ulco/Layer.java" />
         <option value="$PROJECT_DIR$/src/test/LayerTest.java" />
+        <option value="$PROJECT_DIR$/src/org/ulco/Document.java" />
+        <option value="$PROJECT_DIR$/src/org/ulco/Layer.java" />
+        <option value="$PROJECT_DIR$/src/org/ulco/Utilities.java" />
+        <option value="$PROJECT_DIR$/src/test/DocumentTest.java" />
       </list>
     </option>
   </component>
@@ -903,14 +703,11 @@
       <option name="presentableId" value="Default" />
       <updated>1510567023439</updated>
       <workItem from="1510567026767" duration="691000" />
-      <workItem from="1510748422193" duration="15726000" />
+      <workItem from="1510748422193" duration="18891000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2017.11.15 at 15h 46m 17s.xml">
-      <configuration name="Unnamed" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Unnamed - 2017.11.15 at 15h 54m 45s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
@@ -938,9 +735,12 @@
     <history-entry file="Unnamed - 2017.11.16 at 14h 37m 12s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Unnamed - 2017.11.16 at 15h 30m 07s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16417000" />
+    <option name="totallyTimeSpent" value="19582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -1083,42 +883,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/org/ulco/Layer.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/ulco/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/CircleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/DocumentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="81" column="7" lean-forward="false" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/GroupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="115" column="7" lean-forward="false" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/ulco/JSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -1350,7 +1118,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/ulco/Group.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="-1314">
           <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="34" />
           <folding>
             <element signature="e#639#640#0" expanded="true" />
@@ -1360,6 +1128,22 @@
             <element signature="e#1199#1200#0" expanded="true" />
             <element signature="e#1226#1227#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/ulco/JSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/ulco/GraphicsObjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1374,18 +1158,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/ulco/Layer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/LayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/GroupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="115" column="7" lean-forward="false" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/ulco/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="128" column="40" lean-forward="false" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+          <folding>
+            <element signature="e#3502#3503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/ulco/Layer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="104" column="47" lean-forward="false" selection-start-line="104" selection-start-column="47" selection-end-line="104" selection-end-column="47" />
+          <folding>
+            <element signature="e#2743#2744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/ulco/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/DocumentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
           <folding />
         </state>
       </provider>
