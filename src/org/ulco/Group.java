@@ -5,8 +5,9 @@ import java.util.Vector;
 public class Group extends GraphicsObject{
 
     public Group() {
+        super();
         m_objectList = new Vector<>();
-        m_ID = ID.getID().nextID();
+
     }
 
     public Group(String json) {
@@ -43,9 +44,7 @@ public class Group extends GraphicsObject{
         return g;
     }
 
-    public int getID() {
-        return m_ID;
-    }
+
 
     @Override
     public boolean isGroup() {
@@ -196,6 +195,13 @@ public class Group extends GraphicsObject{
         return str + "]]";
     }
 
-    private Vector<Group> m_groupList;
+    public Vector<GraphicsObject> getM_objectList() {
+        return m_objectList;
+    }
+
+    public void setM_objectList(Vector<GraphicsObject> m_objectList) {
+        this.m_objectList = m_objectList;
+    }
+
     private Vector<GraphicsObject> m_objectList;
 }
